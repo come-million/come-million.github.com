@@ -231,12 +231,14 @@ footer {
 .img_1-4{background-image:url('layout/Assets/imgs/4.jpg');}
 .img_2-1{background-image:url('layout/Assets/imgs/5.jpg');}
 .img_2-2{background-image:url('layout/Assets/imgs/6.jpg');}
-.img_2-3{background-image:url('layout/Assets/imgs/7.jpg');}
+/* .img_2-3{background-image:url('layout/Assets/imgs/7.jpg');} */
+.img_2-3{background-image:url('layout/Assets/imgs/tile.gif');}
 .img_2-4{background-image:url('layout/Assets/imgs/8.jpg');}
-.img_3-1{background-image:url('layout/Assets/imgs/9.jpg');}
-.img_3-2{background-image:url('layout/Assets/imgs/1.jpg');}
-.img_3-3{background-image:url('layout/Assets/imgs/2.jpg');}
-.img_3-4{background-image:url('layout/Assets/imgs/3.jpg');}
+/* .img_3-1{background-image:url('layout/Assets/imgs/9.jpg');} */
+.img_3-1{background-image:url('layout/Assets/imgs/tile2.gif');}
+.img_3-2{background-image:url('layout/Assets/imgs/10.jpg');}
+.img_3-3{background-image:url('layout/Assets/imgs/11.jpg');}
+.img_3-4{background-image:url('layout/Assets/imgs/12.jpg');}
 
 @media (max-width:810px) {
     #clockdiv{
