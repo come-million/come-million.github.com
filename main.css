@@ -1,25 +1,36 @@
-html{
-    box-sizing:border-box
+html {
+    box-sizing: border-box
 }
-*,*:before,*:after{box-sizing:inherit}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
 
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{margin:0}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
 
 body {
-    background:#000;
+    margin: 0
+}
+
+body {
+    background: #000;
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight:300;
+    font-weight: 300;
 
 }
 
 .top {
-    top:0;
-    width:100%;
-    z-index:1;
-    position:absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
     //position:fixed;
 }
 
@@ -68,17 +79,18 @@ body {
 }
 
 .logo-image {
-    width:162px;
+    width: 162px;
     max-width: 16vw;
 }
+
 @media (max-width:600px) {
     .bar .menu {
-        display:none!important;
+        display: none !important;
     }
 }
 
 .content {
-    margin:auto;
+    margin: auto;
 }
 
 
@@ -87,29 +99,32 @@ body {
     max-width: 100%;
     height: auto;
 }
+
 img {
     vertical-align: middle;
-    border-style:none;
+    border-style: none;
 }
+
 .display-container {
-    margin:auto;
-    position:relative
+    margin: auto;
+    position: relative
 }
 
 .display-middle {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    text-align:center;
-    width:100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
 }
 
 .down-arrow {
 
     text-align: center;
 }
+
 .down-arrow img {
     position: absolute;
     bottom: 20px;
@@ -122,9 +137,9 @@ img {
     padding: 160px 10vw; //todo:change to responsive units!
     background-repeat: no-repeat;
     background-size: cover;
-    text-align:center;
-    font-size:18px;
-    color:#ccc;
+    text-align: center;
+    font-size: 18px;
+    color: #ccc;
 
 }
 
@@ -135,32 +150,36 @@ img {
 }
 
 
-.container > p {
-    padding-top: 63px; //todo: change to responsive units
+/*todo: change to responsive units*/
+.container>p {
+    padding-top: 63px;
     padding-bottom: 135px;
-    max-width:860px;
+    max-width: 860px;
     margin: 0 auto;
 }
 
-.title-image > img {
-   height:14px;
+.title-image>img {
+    height: 14px;
     width: auto;
     max-width: 100%;
 }
 
-#about >.title-image > img {
-    height:20px;
+#about>.title-image>img {
+    height: 20px;
 }
 
 #about {
     background-image: url('layout/bg_images/bg_2.jpg');
 }
+
 #mission {
     background-image: url('layout/bg_images/bg_3.jpg');
 }
+
 #team {
     background: #000;
 }
+
 #contact {
     background-image: url('layout/bg_images/bg_4.jpg');
 }
@@ -168,98 +187,138 @@ img {
 footer {
     background: #1a1a1a;
     text-align: center;
-    width:100%;
-    padding:20px;
+    width: 100%;
+    padding: 20px;
 }
 
 .footer-image {
-    width:60%;
+    width: 60%;
     max-width: 130px;
 }
 
 
-#clockdiv{
+#clockdiv {
     color: #fff;
     display: inline-block;
     text-align: center;
     font-size: 44px;
 }
 
-#clockdiv > div{
+#clockdiv>div {
     padding: 10px;
-    background: rgba(0,0,0,0.65);
+    background: rgba(0, 0, 0, 0.65);
     display: inline-block;
     font-weight: 400;
     width: 90px;
-    max-width:15vw;
-    height:110px;
+    max-width: 15vw;
+    height: 110px;
     padding: 20px 15px;
 }
 
-#clockdiv div > span{
+#clockdiv div>span {
     display: inline-block;
 }
 
-.smalltext{
+.smalltext {
     font-size: 12px;
     font-weight: 300;
 }
 
 .social img {
-    width:29px;
+    width: 29px;
 }
 
-.imgs{
-   padding: 0;
+.imgs {
+    padding: 0;
     padding-bottom: 25vw;
 
 }
 
 .square {
-    float:left;
+    float: left;
     position: relative;
     width: 25%;
-    padding-bottom : 25%; /* = width for a 1:1 aspect ratio */
-    margin:0;
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    padding-bottom: 25%;
+    /* = width for a 1:1 aspect ratio */
+    margin: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* you change this to "contain" if you don't want the images to be cropped */
 }
-.img_1-1{background-image:url('layout/Assets/imgs/1.jpg');}
-.img_1-2{background-image:url('layout/Assets/imgs/2.jpg');}
-.img_1-3{background-image:url('layout/Assets/imgs/3.jpg');}
-.img_1-4{background-image:url('layout/Assets/imgs/4.jpg');}
-.img_2-1{background-image:url('layout/Assets/imgs/5.jpg');}
-.img_2-2{background-image:url('layout/Assets/imgs/6.jpg');}
+
+.img_1-1 {
+    background-image: url('layout/Assets/imgs/1.jpg');
+}
+
+.img_1-2 {
+    background-image: url('layout/Assets/imgs/2.jpg');
+}
+
+.img_1-3 {
+    background-image: url('layout/Assets/imgs/3.jpg');
+}
+
+.img_1-4 {
+    background-image: url('layout/Assets/imgs/4.jpg');
+}
+
+.img_2-1 {
+    background-image: url('layout/Assets/imgs/5.jpg');
+}
+
+.img_2-2 {
+    background-image: url('layout/Assets/imgs/6.jpg');
+}
+
 /* .img_2-3{background-image:url('layout/Assets/imgs/7.jpg');} */
-.img_2-3{background-image:url('layout/Assets/imgs/tile.gif');}
-.img_2-4{background-image:url('layout/Assets/imgs/8.jpg');}
+.img_2-3 {
+    background-image: url('layout/Assets/imgs/tile.gif');
+}
+
+.img_2-4 {
+    background-image: url('layout/Assets/imgs/8.jpg');
+}
+
 /* .img_3-1{background-image:url('layout/Assets/imgs/9.jpg');} */
-.img_3-1{background-image:url('layout/Assets/imgs/tile2.gif');}
-.img_3-2{background-image:url('layout/Assets/imgs/10.jpg');}
-.img_3-3{background-image:url('layout/Assets/imgs/11.jpg');}
-.img_3-4{background-image:url('layout/Assets/imgs/12.jpg');}
+.img_3-1 {
+    background-image: url('layout/Assets/imgs/tile2.gif');
+}
+
+.img_3-2 {
+    background-image: url('layout/Assets/imgs/10.jpg');
+}
+
+.img_3-3 {
+    background-image: url('layout/Assets/imgs/11.jpg');
+}
+
+.img_3-4 {
+    background-image: url('layout/Assets/imgs/12.jpg');
+}
 
 @media (max-width:810px) {
-    #clockdiv{
-        font-size:6vw;
+    #clockdiv {
+        font-size: 6vw;
     }
 
-    .smalltext{
+    .smalltext {
         font-size: 1.7vw;
     }
 
-    #clockdiv > div{
-        height:16vw;
+    #clockdiv>div {
+        height: 16vw;
     }
 
     .down-arrow img {
-        width:35px;
-        display:none;
+        width: 35px;
+        display: none;
     }
 }
 
 .mail-link {
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
 }
